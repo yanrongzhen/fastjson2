@@ -116,4 +116,7 @@ public class JSONSerializer {
     public List<ValueFilter> getValueFilters() {
         return this.out.getValueFilters();
     }
+    public List<NameFilter> getNameFilters() {
+        return this.out.getNameFilters();
+    }
 }
