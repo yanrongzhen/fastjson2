@@ -358,7 +358,7 @@ public class ObjectWriterAdapter<T>
 
             // property filter
             if (propertyFilter != null
-                    && !propertyFilter.process(object, fieldWriterFieldName, fieldValue)) {
+                    && !propertyFilter.apply(object, fieldWriterFieldName, fieldValue)) {
                 continue;
             }
 
